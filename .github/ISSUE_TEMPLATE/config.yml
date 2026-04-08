@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Usage and setup guide
+    url: https://github.com/MichaelRochonnn/FinancialModels#readme
+    about: Read the repository README for installation, invocation patterns, and examples.
+  - name: Security policy
+    url: https://github.com/MichaelRochonnn/FinancialModels/blob/main/SECURITY.md
+    about: Please use the security policy for sensitive or security-related reports.
