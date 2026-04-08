@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none">
+  <defs>
+    <style>
+      .title { font: 700 28px Arial, sans-serif; fill: #0F172A; }
+      .subtitle { font: 400 15px Arial, sans-serif; fill: #475569; }
+      .step { font: 700 16px Arial, sans-serif; fill: #0F172A; }
+      .copy { font: 400 13px Arial, sans-serif; fill: #334155; }
+      .num { font: 700 20px Arial, sans-serif; fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="340" rx="28" fill="#F8FAFC"/>
+  <text x="56" y="58" class="title">What Good Output Should Include</text>
+  <text x="56" y="84" class="subtitle">A polished finance deliverable should move from raw inputs to assumptions, analysis, and decision-ready messaging.</text>
+
+  <g transform="translate(56 138)">
+    <rect width="188" height="128" rx="22" fill="#E0F2FE"/>
+    <circle cx="34" cy="34" r="18" fill="#0284C7"/><text x="28" y="41" class="num">1</text>
+    <text x="62" y="38" class="step">Inputs</text>
+    <text x="24" y="70" class="copy">Company facts,</text>
+    <text x="24" y="90" class="copy">historical financials,</text>
+    <text x="24" y="110" class="copy">deal terms, market data.</text>
+  </g>
+
+  <g transform="translate(280 122)">
+    <rect width="188" height="144" rx="22" fill="#FEF3C7"/>
+    <circle cx="34" cy="34" r="18" fill="#D97706"/><text x="28" y="41" class="num">2</text>
+    <text x="62" y="38" class="step">Assumptions</text>
+    <text x="24" y="70" class="copy">Growth, margins,</text>
+    <text x="24" y="90" class="copy">WACC, exit multiples,</text>
+    <text x="24" y="110" class="copy">and labeled gap-fills.</text>
+  </g>
+
+  <g transform="translate(504 106)">
+    <rect width="188" height="160" rx="22" fill="#DCFCE7"/>
+    <circle cx="34" cy="34" r="18" fill="#16A34A"/><text x="28" y="41" class="num">3</text>
+    <text x="62" y="38" class="step">Core Build</text>
+    <text x="24" y="70" class="copy">Model bridge,</text>
+    <text x="24" y="90" class="copy">valuation math,</text>
+    <text x="24" y="110" class="copy">capital structure,</text>
+    <text x="24" y="130" class="copy">and scenario setup.</text>
+  </g>
+
+  <g transform="translate(728 122)">
+    <rect width="188" height="144" rx="22" fill="#EDE9FE"/>
+    <circle cx="34" cy="34" r="18" fill="#7C3AED"/><text x="28" y="41" class="num">4</text>
+    <text x="62" y="38" class="step">Sensitivity</text>
+    <text x="24" y="70" class="copy">Bull / base / bear,</text>
+    <text x="24" y="90" class="copy">two-way tables,</text>
+    <text x="24" y="110" class="copy">and downside framing.</text>
+  </g>
+
+  <g transform="translate(952 138)">
+    <rect width="188" height="128" rx="22" fill="#FCE7F3"/>
+    <circle cx="34" cy="34" r="18" fill="#DB2777"/><text x="28" y="41" class="num">5</text>
+    <text x="62" y="38" class="step">Deliverable</text>
+    <text x="24" y="70" class="copy">Memo-ready summary,</text>
+    <text x="24" y="90" class="copy">key risks, and</text>
+    <text x="24" y="110" class="copy">decision-oriented output.</text>
+  </g>
+</svg>

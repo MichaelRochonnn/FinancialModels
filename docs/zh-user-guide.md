@@ -2,6 +2,17 @@
 
 这份文档面向想直接使用这两个 Skill 的中文用户。
 
+## 一图看懂使用流程
+
+![使用流程图](./assets/usage-flow.svg)
+
+![模型路由图](./assets/model-routing.svg)
+
+上面两张图对应两个重点：
+
+- 你怎么从一句口语化需求进入完整工作流
+- 系统怎么把需求路由到 12 种不同的金融模型
+
 ## 这两个 Skill 分别做什么？
 
 ### `financial-modeling-quickstart`
@@ -94,7 +105,7 @@ $financial-modeling-suite Build a DCF for PDD Holdings and tell me which inputs 
 - Bull / Base / Bear 情景
 - 风险和需要继续验证的点
 
-## 什么时候适合让它先出示意版？
+## 什么情况下适合让它先出示意版？
 
 如果你手里的数据还不完整，可以明确告诉它：
 

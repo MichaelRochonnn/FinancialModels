@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" fill="none">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L10 5L0 10Z" fill="#94A3B8"/>
+    </marker>
+    <style>
+      .title { font: 700 28px Arial, sans-serif; fill: #0F172A; }
+      .subtitle { font: 400 15px Arial, sans-serif; fill: #475569; }
+      .section { font: 700 18px Arial, sans-serif; fill: #0F172A; }
+      .cardTitle { font: 700 16px Arial, sans-serif; fill: #0F172A; }
+      .cardText { font: 400 13px Arial, sans-serif; fill: #334155; }
+      .pill { font: 600 13px Arial, sans-serif; fill: #1E293B; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="#F8FAFC"/>
+  <text x="56" y="58" class="title">Routing Across 12 Financial Workflows</text>
+  <text x="56" y="84" class="subtitle">The quickstart layer catches rough asks, then the suite routes into the right modeling family.</text>
+
+  <rect x="56" y="160" width="180" height="96" rx="20" fill="#E0F2FE"/>
+  <text x="78" y="196" class="cardTitle">User Request</text>
+  <text x="78" y="224" class="cardText">Examples:</text>
+  <text x="78" y="244" class="cardText">“Run a DCF”</text>
+  <text x="78" y="264" class="cardText">“做个三张表”</text>
+
+  <rect x="300" y="160" width="200" height="96" rx="20" fill="#DCFCE7"/>
+  <text x="324" y="196" class="cardTitle">Model Router</text>
+  <text x="324" y="224" class="cardText">Interpret the ask,</text>
+  <text x="324" y="244" class="cardText">classify the workflow,</text>
+  <text x="324" y="264" class="cardText">and request missing inputs.</text>
+
+  <line x1="236" y1="208" x2="300" y2="208" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="500" y1="174" x2="560" y2="120" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="500" y1="208" x2="560" y2="208" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="500" y1="242" x2="560" y2="296" stroke="#94A3B8" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="560" y="40" width="584" height="104" rx="24" fill="#FFF7ED" stroke="#FDBA74"/>
+  <text x="588" y="74" class="section">Valuation</text>
+  <rect x="588" y="92" width="96" height="32" rx="16" fill="#FFFFFF"/><text x="616" y="112" class="pill">DCF</text>
+  <rect x="696" y="92" width="120" height="32" rx="16" fill="#FFFFFF"/><text x="716" y="112" class="pill">Comps</text>
+  <rect x="828" y="92" width="138" height="32" rx="16" fill="#FFFFFF"/><text x="846" y="112" class="pill">Precedents</text>
+  <rect x="978" y="92" width="88" height="32" rx="16" fill="#FFFFFF"/><text x="1008" y="112" class="pill">IPO</text>
+  <rect x="1078" y="92" width="44" height="32" rx="16" fill="#FFFFFF"/><text x="1088" y="112" class="pill">SOTP</text>
+
+  <rect x="560" y="158" width="584" height="104" rx="24" fill="#EEF2FF" stroke="#A5B4FC"/>
+  <text x="588" y="192" class="section">Modeling</text>
+  <rect x="588" y="210" width="170" height="32" rx="16" fill="#FFFFFF"/><text x="610" y="230" class="pill">Three-statement</text>
+  <rect x="770" y="210" width="84" height="32" rx="16" fill="#FFFFFF"/><text x="801" y="230" class="pill">LBO</text>
+  <rect x="866" y="210" width="176" height="32" rx="16" fill="#FFFFFF"/><text x="891" y="230" class="pill">Operating Model</text>
+
+  <rect x="560" y="276" width="584" height="104" rx="24" fill="#ECFDF5" stroke="#86EFAC"/>
+  <text x="588" y="310" class="section">Decision and Risk</text>
+  <rect x="588" y="328" width="166" height="32" rx="16" fill="#FFFFFF"/><text x="607" y="348" class="pill">Accretion / Dilution</text>
+  <rect x="766" y="328" width="132" height="32" rx="16" fill="#FFFFFF"/><text x="789" y="348" class="pill">Debt Capacity</text>
+  <rect x="910" y="328" width="116" height="32" rx="16" fill="#FFFFFF"/><text x="932" y="348" class="pill">Sensitivity</text>
+  <rect x="1038" y="328" width="84" height="32" rx="16" fill="#FFFFFF"/><text x="1051" y="348" class="pill">IC Memo</text>
+</svg>

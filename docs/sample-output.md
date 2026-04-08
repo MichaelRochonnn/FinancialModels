@@ -2,6 +2,12 @@
 
 This document shows what a good interaction and a good deliverable should look like.
 
+## Visual overview
+
+![Output stack](./assets/output-stack.svg)
+
+A strong deliverable should make it obvious how the work moved from inputs and assumptions to a decision-ready summary.
+
 ## Example 1: Quickstart intake flow
 
 ### User prompt

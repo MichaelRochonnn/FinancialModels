@@ -8,16 +8,18 @@ This project currently uses a lightweight, date-based changelog until a formal v
 
 ### Added
 
-- Added a `docs/` directory with installation guidance, a Chinese usage guide, and sample output documentation.
+- Added `docs/assets/` with SVG workflow diagrams for usage flow, model routing, and output structure.
+- Added visual sections to the docs pages so the repository reads more like a compact documentation site.
 
 ### Changed
 
-- Expanded the top-level `README.md` to point readers to the new documentation hub.
+- Expanded the top-level `README.md` to include a workflow overview graphic.
 
 ## [2026-04-08]
 
 ### Added
 
+- Added a `docs/` directory with installation guidance, a Chinese usage guide, and sample output documentation.
 - Added `.github/CODEOWNERS` to define the default repository owner.
 - Added `CHANGELOG.md` to track project-level changes over time.
 - Added `financial-modeling-suite`, a 12-model Codex skill for valuation, modeling, scenario analysis, and investment-committee style outputs.

@@ -18,6 +18,12 @@ Together, these skills help Codex:
 3. avoid inventing numbers too early, and
 4. produce outputs that read more like investment banking / private equity working materials.
 
+## Workflow at a glance
+
+![FinancialModels workflow](./docs/assets/usage-flow.svg)
+
+The quickstart skill catches rough asks, the suite gathers only the missing inputs, and the final output is shaped into a more decision-ready finance deliverable.
+
 ## Supported models
 
 The suite currently supports 12 workflows:
@@ -59,7 +65,11 @@ FinancialModels/
 │   ├── README.md
 │   ├── installation.md
 │   ├── zh-user-guide.md
-│   └── sample-output.md
+│   ├── sample-output.md
+│   └── assets/
+│       ├── usage-flow.svg
+│       ├── model-routing.svg
+│       └── output-stack.svg
 ├── examples/
 │   ├── invocation-examples.md
 │   ├── input-template.md

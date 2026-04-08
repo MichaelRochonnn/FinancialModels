@@ -2,6 +2,17 @@
 
 This folder is the documentation hub for the FinancialModels repository.
 
+## Visual overview
+
+![Usage flow](./assets/usage-flow.svg)
+
+![Model routing](./assets/model-routing.svg)
+
+These diagrams show the two key layers of the project:
+
+- how a rough user request moves through quickstart into the full suite,
+- how the router maps a request into one of the 12 supported modeling workflows.
+
 ## Start here
 
 If you are new to the project, read these in order:
