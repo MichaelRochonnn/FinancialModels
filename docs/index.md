@@ -81,9 +81,9 @@ FinancialModels is meant to make high-friction finance workflows feel lighter wi
 
 ## Related repository docs
 
-- [GitHub folder README](./README.md)
-- [Top-level README](../README.md)
-- [Examples directory](../examples)
-- [Contributing guide](../CONTRIBUTING.md)
-- [Security policy](../SECURITY.md)
-- [Changelog](../CHANGELOG.md)
+- [GitHub folder README](https://github.com/MichaelRochonnn/FinancialModels/blob/main/docs/README.md)
+- [Top-level README](https://github.com/MichaelRochonnn/FinancialModels/blob/main/README.md)
+- [Examples directory](https://github.com/MichaelRochonnn/FinancialModels/tree/main/examples)
+- [Contributing guide](https://github.com/MichaelRochonnn/FinancialModels/blob/main/CONTRIBUTING.md)
+- [Security policy](https://github.com/MichaelRochonnn/FinancialModels/blob/main/SECURITY.md)
+- [Changelog](https://github.com/MichaelRochonnn/FinancialModels/blob/main/CHANGELOG.md)

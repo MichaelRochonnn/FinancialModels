@@ -13,6 +13,8 @@ This project currently uses a lightweight, date-based changelog until a formal v
 
 ### Changed
 
+- Fixed the MkDocs strict build by excluding `docs/README.md` from the generated site and converting repo-root/example references to GitHub URLs.
+- Updated the docs workflow to call MkDocs through `python -m mkdocs`, which is more robust on GitHub Actions runners.
 - Refined `docs/stylesheets/extra.css` with landing-page layout styles for CTA, cards, and responsive sections.
 - Reverted the unsupported automatic Pages enablement attempt in the workflow and documented the required first-time manual Pages setup step.
 - Upgraded `mkdocs.yml` with grouped navigation, footer navigation, social links, font settings, dark-mode toggle, and richer Material theme features.

@@ -144,5 +144,5 @@ $financial-modeling-suite Build a DCF for PDD Holdings and tell me which inputs 
 
 - [安装指南](./installation.md)
 - [示例输出](./sample-output.md)
-- [调用示例](../examples/invocation-examples.md)
-- [输入模板](../examples/input-template.md)
+- [调用示例](https://github.com/MichaelRochonnn/FinancialModels/blob/main/examples/invocation-examples.md)
+- [输入模板](https://github.com/MichaelRochonnn/FinancialModels/blob/main/examples/input-template.md)

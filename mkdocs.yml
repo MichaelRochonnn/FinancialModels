@@ -5,6 +5,7 @@ repo_url: https://github.com/MichaelRochonnn/FinancialModels
 repo_name: MichaelRochonnn/FinancialModels
 edit_uri: edit/main/docs/
 docs_dir: docs
+exclude_docs: README.md
 
 theme:
   name: material
@@ -81,7 +82,7 @@ copyright: Copyright © 2026 MichaelRochonnn
 nav:
   - Overview:
       - Docs Home: index.md
-      - GitHub Reader Guide: README.md
+      - GitHub Reader Guide: https://github.com/MichaelRochonnn/FinancialModels/blob/main/docs/README.md
   - Getting Started:
       - Installation: installation.md
       - Chinese User Guide: zh-user-guide.md

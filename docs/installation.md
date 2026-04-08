@@ -84,7 +84,7 @@ To preview the docs site locally:
 ```bash
 python -m pip install --upgrade pip
 pip install mkdocs-material
-mkdocs serve
+python -m mkdocs serve
 ```
 
 Then open the local URL shown by MkDocs in your terminal.
@@ -113,4 +113,4 @@ If the skills do not appear to work as expected, check the following:
 
 - [Chinese user guide](./zh-user-guide.md)
 - [Sample output guide](./sample-output.md)
-- [Invocation examples](../examples/invocation-examples.md)
+- [Invocation examples](https://github.com/MichaelRochonnn/FinancialModels/blob/main/examples/invocation-examples.md)

@@ -145,7 +145,7 @@ A good output from this repository should feel:
 
 ## Related docs
 
-- [Documentation index](./README.md)
+- [Documentation index](./index.md)
 - [Chinese user guide](./zh-user-guide.md)
-- [Invocation examples](../examples/invocation-examples.md)
-- [Input templates](../examples/input-template.md)
+- [Invocation examples](https://github.com/MichaelRochonnn/FinancialModels/blob/main/examples/invocation-examples.md)
+- [Input templates](https://github.com/MichaelRochonnn/FinancialModels/blob/main/examples/input-template.md)
