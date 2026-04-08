@@ -1,0 +1,4 @@
+interface:
+  display_name: "Financial Modeling Suite"
+  short_description: "Trigger 12 finance models with intake checks."
+  default_prompt: "Use $financial-modeling-suite to pick the right model, request the missing inputs, and then produce the analysis."
