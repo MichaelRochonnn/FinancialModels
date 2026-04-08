@@ -10,6 +10,7 @@ theme:
   name: material
   language: en
   logo: material/chart-box-outline
+  favicon: assets/favicon.svg
   icon:
     repo: fontawesome/brands/github
   features:

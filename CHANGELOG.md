@@ -8,10 +8,12 @@ This project currently uses a lightweight, date-based changelog until a formal v
 
 ### Added
 
-- Added `docs/stylesheets/extra.css` to give the docs site a more polished visual layer.
+- Added `docs/assets/favicon.svg` and configured it as the docs site favicon.
+- Added CTA sections and landing-page style content blocks to `docs/index.md`.
 
 ### Changed
 
+- Refined `docs/stylesheets/extra.css` with landing-page layout styles for CTA, cards, and responsive sections.
 - Reverted the unsupported automatic Pages enablement attempt in the workflow and documented the required first-time manual Pages setup step.
 - Upgraded `mkdocs.yml` with grouped navigation, footer navigation, social links, font settings, dark-mode toggle, and richer Material theme features.
 - Updated the top-level `README.md` to reflect the expanded docs-site structure and styling layer.
