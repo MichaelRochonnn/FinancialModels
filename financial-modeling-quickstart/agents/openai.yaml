@@ -1,0 +1,4 @@
+interface:
+  display_name: "Financial Modeling Quickstart"
+  short_description: "Catch short Chinese model requests fast."
+  default_prompt: "Use $financial-modeling-quickstart when I say things like 跑 DCF or 做个三张表, then identify the model and ask only for the missing inputs."
