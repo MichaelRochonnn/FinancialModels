@@ -70,6 +70,8 @@ FinancialModels/
 │   ├── installation.md
 │   ├── zh-user-guide.md
 │   ├── sample-output.md
+│   ├── stylesheets/
+│   │   └── extra.css
 │   └── assets/
 │       ├── hero-banner.svg
 │       ├── usage-flow.svg
@@ -109,7 +111,7 @@ If you are new to the repository, start here:
 - [Chinese user guide](./docs/zh-user-guide.md)
 - [Sample output guide](./docs/sample-output.md)
 
-The repository now includes both `mkdocs.yml` and a GitHub Pages deployment workflow. If you want the hosted docs site to go live, make sure GitHub Pages is configured to deploy from Actions in the repository settings.
+The repository now includes a richer Material for MkDocs configuration, a custom stylesheet, and a GitHub Pages deployment workflow. If you want the hosted docs site to go live, make sure GitHub Pages is configured to deploy from Actions in the repository settings.
 
 ## How to invoke the skills
 

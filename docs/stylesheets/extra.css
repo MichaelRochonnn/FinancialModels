@@ -1,0 +1,63 @@
+:root {
+  --md-primary-fg-color: #1d4ed8;
+  --md-primary-fg-color--light: #3b82f6;
+  --md-primary-fg-color--dark: #1e3a8a;
+  --md-accent-fg-color: #0f766e;
+  --md-typeset-a-color: #0f766e;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #0f172a;
+  --md-primary-fg-color--light: #1e293b;
+  --md-primary-fg-color--dark: #020617;
+  --md-accent-fg-color: #5eead4;
+  --md-typeset-a-color: #5eead4;
+}
+
+.md-grid {
+  max-width: 1280px;
+}
+
+.md-header {
+  backdrop-filter: saturate(180%) blur(14px);
+}
+
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset h2 {
+  margin-top: 2.2em;
+  font-weight: 700;
+}
+
+.md-typeset img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 1.25rem 0 2rem;
+  border-radius: 24px;
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+  background: #ffffff;
+}
+
+.md-typeset img[src*="hero-banner.svg"] {
+  border-radius: 28px;
+  box-shadow: 0 24px 64px rgba(37, 99, 235, 0.16);
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 18px;
+}
+
+.md-typeset code {
+  border-radius: 0.4rem;
+}
+
+.md-footer-meta__inner {
+  font-size: 0.8rem;
+}

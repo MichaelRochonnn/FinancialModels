@@ -3,29 +3,90 @@ site_description: Codex skills for financial modeling workflows
 site_url: https://michaelrochonnn.github.io/FinancialModels/
 repo_url: https://github.com/MichaelRochonnn/FinancialModels
 repo_name: MichaelRochonnn/FinancialModels
+edit_uri: edit/main/docs/
 docs_dir: docs
 
 theme:
   name: material
+  language: en
+  logo: material/chart-box-outline
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.sections
+    - navigation.expand
+    - navigation.indexes
     - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
     - content.code.copy
     - content.action.view
+    - content.action.edit
+    - content.tabs.link
   palette:
     - scheme: default
       primary: blue grey
       accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+
+plugins:
+  - search
 
 markdown_extensions:
   - admonition
   - attr_list
+  - md_in_html
   - tables
   - toc:
       permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/MichaelRochonnn/FinancialModels
+      name: Repository
+    - icon: fontawesome/solid/user
+      link: https://github.com/MichaelRochonnn
+      name: Maintainer
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: Copyright © 2026 MichaelRochonnn
 
 nav:
-  - Home: index.md
-  - Installation: installation.md
-  - Chinese Guide: zh-user-guide.md
-  - Sample Output: sample-output.md
+  - Overview:
+      - Docs Home: index.md
+      - GitHub Reader Guide: README.md
+  - Getting Started:
+      - Installation: installation.md
+      - Chinese User Guide: zh-user-guide.md
+  - Output and Quality:
+      - Sample Output: sample-output.md
+  - Repository:
+      - Changelog: https://github.com/MichaelRochonnn/FinancialModels/blob/main/CHANGELOG.md
+      - Contributing: https://github.com/MichaelRochonnn/FinancialModels/blob/main/CONTRIBUTING.md
+      - Security: https://github.com/MichaelRochonnn/FinancialModels/blob/main/SECURITY.md

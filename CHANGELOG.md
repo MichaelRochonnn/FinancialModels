@@ -8,19 +8,20 @@ This project currently uses a lightweight, date-based changelog until a formal v
 
 ### Added
 
-- Added `docs/assets/hero-banner.svg` as a reusable visual cover for the repository and docs pages.
-- Added `mkdocs.yml` and a GitHub Pages workflow so the docs can be deployed as a lightweight site.
-- Added `docs/index.md` as a dedicated MkDocs home page.
+- Added `docs/stylesheets/extra.css` to give the docs site a more polished visual layer.
 
 ### Changed
 
-- Expanded the top-level `README.md` and docs entry pages to embed the new banner and document the Pages-ready setup.
-- Updated the installation guide with a local MkDocs preview flow.
+- Upgraded `mkdocs.yml` with grouped navigation, footer navigation, social links, font settings, dark-mode toggle, and richer Material theme features.
+- Updated the top-level `README.md` to reflect the expanded docs-site structure and styling layer.
 
 ## [2026-04-08]
 
 ### Added
 
+- Added `docs/assets/hero-banner.svg` as a reusable visual cover for the repository and docs pages.
+- Added `mkdocs.yml` and a GitHub Pages workflow so the docs can be deployed as a lightweight site.
+- Added `docs/index.md` as a dedicated MkDocs home page.
 - Added `docs/assets/` with SVG workflow diagrams for usage flow, model routing, and output structure.
 - Added visual sections to the docs pages so the repository reads more like a compact documentation site.
 - Added a `docs/` directory with installation guidance, a Chinese usage guide, and sample output documentation.
