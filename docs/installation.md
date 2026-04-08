@@ -56,6 +56,25 @@ A healthy installation should:
 - ask for missing inputs,
 - avoid inventing important numbers without labeling assumptions.
 
+## Important: first-time GitHub Pages setup
+
+If you want the docs workflow to deploy a hosted docs site, GitHub Pages must be enabled once in the repository settings.
+
+Open:
+
+```text
+https://github.com/MichaelRochonnn/FinancialModels/settings/pages
+```
+
+Then:
+
+1. Find the `Source` setting on the Pages settings page.
+2. Set it to `GitHub Actions`.
+3. Save.
+4. Re-run the `Deploy documentation` workflow from the Actions tab if the earlier run failed.
+
+If you do not see a `Build and deployment` heading, look for the `Source` selector directly. In some GitHub layouts or localized interfaces, the heading text may differ or be visually minimized, but the `Source` selector is the key setting.
+
 ## Optional: preview the docs site locally
 
 The repository now includes a lightweight MkDocs configuration.

@@ -12,9 +12,9 @@ This project currently uses a lightweight, date-based changelog until a formal v
 
 ### Changed
 
+- Reverted the unsupported automatic Pages enablement attempt in the workflow and documented the required first-time manual Pages setup step.
 - Upgraded `mkdocs.yml` with grouped navigation, footer navigation, social links, font settings, dark-mode toggle, and richer Material theme features.
 - Updated the top-level `README.md` to reflect the expanded docs-site structure and styling layer.
-- Updated the GitHub Pages workflow to request automatic Pages enablement through `actions/configure-pages`.
 
 ## [2026-04-08]
 

@@ -111,7 +111,13 @@ If you are new to the repository, start here:
 - [Chinese user guide](./docs/zh-user-guide.md)
 - [Sample output guide](./docs/sample-output.md)
 
-The repository now includes a richer Material for MkDocs configuration, a custom stylesheet, and a GitHub Pages deployment workflow. If you want the hosted docs site to go live, make sure GitHub Pages is configured to deploy from Actions in the repository settings.
+The repository includes a Material for MkDocs configuration, a custom stylesheet, and a GitHub Pages deployment workflow.
+
+Important for first-time setup:
+- GitHub Pages must be enabled once in the repository UI before the workflow can deploy successfully.
+- Open `https://github.com/MichaelRochonnn/FinancialModels/settings/pages`
+- On that page, look for the `Source` control under the Pages settings page and set it to `GitHub Actions`.
+- In some GitHub layouts or localized UIs, the `Build and deployment` heading may be omitted or translated, but the `Source` selector is the setting that matters.
 
 ## How to invoke the skills
 
