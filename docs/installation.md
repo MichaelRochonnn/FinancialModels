@@ -56,6 +56,20 @@ A healthy installation should:
 - ask for missing inputs,
 - avoid inventing important numbers without labeling assumptions.
 
+## Optional: preview the docs site locally
+
+The repository now includes a lightweight MkDocs configuration.
+
+To preview the docs site locally:
+
+```bash
+python -m pip install --upgrade pip
+pip install mkdocs-material
+mkdocs serve
+```
+
+Then open the local URL shown by MkDocs in your terminal.
+
 ## Updating the skills later
 
 If you pull a newer version of the repository, update the installed skills by copying the directories again:

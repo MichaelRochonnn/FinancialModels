@@ -1,0 +1,31 @@
+site_name: FinancialModels
+site_description: Codex skills for financial modeling workflows
+site_url: https://michaelrochonnn.github.io/FinancialModels/
+repo_url: https://github.com/MichaelRochonnn/FinancialModels
+repo_name: MichaelRochonnn/FinancialModels
+docs_dir: docs
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.action.view
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: teal
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Chinese Guide: zh-user-guide.md
+  - Sample Output: sample-output.md

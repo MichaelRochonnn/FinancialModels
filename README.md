@@ -1,3 +1,5 @@
+![FinancialModels hero banner](./assets/hero-banner.svg)
+
 # FinancialModels
 
 Codex skills for financial modeling workflows, with a focus on fast model routing, structured intake, and polished Chinese-language deliverables.
@@ -50,6 +52,7 @@ FinancialModels/
 ├── LICENSE
 ├── CONTRIBUTING.md
 ├── SECURITY.md
+├── mkdocs.yml
 ├── financial-modeling-suite/
 │   ├── SKILL.md
 │   ├── agents/
@@ -63,10 +66,12 @@ FinancialModels/
 │       └── openai.yaml
 ├── docs/
 │   ├── README.md
+│   ├── index.md
 │   ├── installation.md
 │   ├── zh-user-guide.md
 │   ├── sample-output.md
 │   └── assets/
+│       ├── hero-banner.svg
 │       ├── usage-flow.svg
 │       ├── model-routing.svg
 │       └── output-stack.svg
@@ -77,6 +82,8 @@ FinancialModels/
 └── .github/
     ├── CODEOWNERS
     ├── ISSUE_TEMPLATE/
+    ├── workflows/
+    │   └── docs.yml
     └── pull_request_template.md
 ```
 
@@ -97,9 +104,12 @@ If you already manage skills in another location, place the folders wherever you
 If you are new to the repository, start here:
 
 - [Documentation index](./docs/README.md)
+- [Docs site home](./docs/index.md)
 - [Installation guide](./docs/installation.md)
 - [Chinese user guide](./docs/zh-user-guide.md)
 - [Sample output guide](./docs/sample-output.md)
+
+The repository now includes both `mkdocs.yml` and a GitHub Pages deployment workflow. If you want the hosted docs site to go live, make sure GitHub Pages is configured to deploy from Actions in the repository settings.
 
 ## How to invoke the skills
 

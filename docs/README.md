@@ -1,6 +1,13 @@
+![FinancialModels hero banner](./assets/hero-banner.svg)
+
 # Documentation
 
 This folder is the documentation hub for the FinancialModels repository.
+
+It now supports two entry modes:
+
+- direct browsing on GitHub,
+- a lightweight MkDocs site backed by the same `docs/` content.
 
 ## Visual overview
 
@@ -30,8 +37,13 @@ If you are new to the project, read these in order:
 - [sample-output.md](./sample-output.md)
   Example prompts, expected intake interactions, and the shape of a polished deliverable.
 
+## Hosted docs note
+
+The repository now includes `mkdocs.yml` and a GitHub Pages workflow. To publish a hosted docs site, make sure GitHub Pages is configured to deploy from Actions in the repository settings.
+
 ## Related repository docs
 
+- [MkDocs home page](./index.md)
 - [Top-level README](../README.md)
 - [Examples directory](../examples)
 - [Contributing guide](../CONTRIBUTING.md)
